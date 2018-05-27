@@ -5,11 +5,15 @@
 }   */
 
 .articulo {
-    background-color: azure;
-    font-size: 1.3rem;
+    background-color: bisque;
+    font-size: 1.2rem;
 }
 
 .marron {
     color: brown;
+    font-size: 1.4rem;
+}
+.parrafo1 {
+    font-family: cursive;
     font-size: 1.3rem;
 }
