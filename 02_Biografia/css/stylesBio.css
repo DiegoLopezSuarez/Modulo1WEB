@@ -6,14 +6,17 @@
 
 .articulo {
     background-color: bisque;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .marron {
     color: brown;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 .parrafo1 {
     font-family: cursive;
     font-size: 1.3rem;
+}
+.rojo {
+    color: red;
 }
