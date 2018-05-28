@@ -1,0 +1,12 @@
+body{
+    padding: 0rem;
+    margin: 0rem;
+}
+
+p{
+    padding: 1rem;
+    margin: 1rem;
+    width: 20%;
+    border: 0.1rem; solid;
+    background-color:bisque;
+}

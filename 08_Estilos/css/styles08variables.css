@@ -1,0 +1,12 @@
+:root{
+--color-primary:maroon;
+--color-secundary:rgb(255, 238, 0) ;
+--airebasico:1rem;
+}
+
+header{background-color:maroon;
+    color:peach;}
+
+h1{
+    padding: 1rem;
+}
