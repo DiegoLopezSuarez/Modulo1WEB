@@ -2,3 +2,9 @@
     display: block;
     font-size: 1.5rem;
 }
+.separado{
+    padding-left: 4rem;
+}
+.vertebrados{
+    list-style: decimal;
+}
