@@ -34,8 +34,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.3rem;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -50,4 +51,36 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* Aqui empiezan mis estilos propios
+*/
+
+h1  {
+	font-size: 3rem;
+	color: brown;
+}
+.articulo {
+    background-color: bisque;
+	font-size: 1.2rem;
+	line-height: 1.3rem;
+}
+
+.marron {
+    color: brown;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+.parrafo1 {
+    font-family: cursive;
+	font-size: 1.3rem;
+	margin-top: 1.5rem;
+}
+.rojo {
+	color: red;
+	line-height: 3.5rem;
+}
+.menu {
+	font-size: 1rem;
+	line-height: 2rem;
 }
