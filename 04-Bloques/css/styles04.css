@@ -6,5 +6,5 @@
     padding-left: 4rem;
 }
 .vertebrados{
-    list-style: decimal;
+    list-style-type:decimal; 
 }

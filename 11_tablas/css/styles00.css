@@ -1,0 +1,11 @@
+th,td {
+    padding: 0.0rem 2rem;
+}
+th{
+    background-color: brown;
+    color: bisque
+}
+td{
+    background-color:bisque;
+    color: brown
+}
