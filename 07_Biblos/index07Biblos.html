@@ -9,7 +9,16 @@
     <meta name="keywords" content="El señor de los anillos, El Hobbit, Tolkien, Libros">
     <meta name="generator" content="VSC">
     <title>Ejercicio Bibliografia</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/styles07.css"/> 
+    
+    <style>
+    /* [class="titulo"]*/ 
+    .titulo {color: maroon;}
+
+    /*span [itemprop="name"]{color:marron;}*/
+    .marron {color: maroon;}
+    h1 {font-size: 1rem;}
+    </style>
+
 </head>
 
 <body>
@@ -19,13 +28,32 @@
     </header>
 
     <article>
+        <h2>Libros de Tolkien</h2>
+
         <ul>
             <li class="titulo">El señor de los anillos</li>
        <!--      <li>class="titulo"El señor de los anillos</li> 
-        Esta es una linea que copié mal y que dejé de ejemplo para recordar siempre que los atributos deben de ir dentro de la etiqueta, no por fuera de esta, de lo contrario el programa los va a entdender como texto, no como atributo y se mostrara en pantalla como un texto de contenidos -->
+        Esta es una linea que copié mal y que dejé de ejemplo para recordar siempre que los atributos deben de ir dentro de la etiqueta, no por fuera de esta, de lo contrario el programa los va a entender como texto, no como atributo y se mostrara en pantalla como un texto de contenidos -->
+
             <li class="tit_orig">The Lord of the rings</li>
             <li class="fecha_orig">Mayo 15 de 2022</li>
+            <li class="autor">J. R. R. Tolkien</li>
+            <li class="edit_esp">Minotauro</li>
+            <li class="fecha_esp">1980</li>
+            <li class="descrip">Novela de fantasía épica escrita por el filólogo y escritor británico Tolkien.</li>
+            
         </ul>
+
+        <p>
+        <!-- Ejemplo de metadatos con atributos propios -->
+        <span data-titulo="El Señor de los Anillos" data-tit-orig="The Lord of the Rings" data-fecha-orig="1954">El Señor de los Anillos</span>
+        "es un novela de fantasía épica escrita por el filólogo y escritor británico"
+        <span data-autor="J. R. R. Tolkien">Tolkien</span>
+        </p>
+        
+        <!-- Ejemplo de Microdata - http://schema.org/ -->
+        
+
     </article>
 
     <footer>
