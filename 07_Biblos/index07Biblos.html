@@ -52,15 +52,73 @@
         </p>
         
         <!-- Ejemplo de Microdata - http://schema.org/ -->
-        
+    <ul> 
+
+            <ul itemscope="" itemtype="http://schema.org/Book" itemid="1">
+                <li itemprop="translationOfWork">
+                        <span itemscope="" itemtype="http://schema.org/CreativeWork" itemid="1">
+                        <span class="marron" itemprop="name">El Hobbit</span>
+                        </span>
+                    </li>
+                <li itemprop="name">The Hobbit, or There and Back Again</li>
+                <li itemprop="datePublished">1937</li>
+                <li itemprop="author">
+                    <span itemscope="" itemtype="http://schema.org/Person">
+                        <span itemprop="givenName">J. R. R.</span>
+                        <span itemprop="familyName">Tolkien</span>
+                    </span>
+                </li>
+    
+                <li itemprop="translationOfWork">
+                    <p itemscope="" itemtype="http://schema.org/CreativeWork" itemid="01">Edicion española: 
+                        <span itemprop="publisher">Minotauro</span>, 
+                        <span itemprop="datePublished">1982</span>
+                    </p>
+                </li>
+                <li itemprop="description">Relato de fantasía épica escrita por el filólogo y escritor británico.</li>
+                <li itemprop="keyworks">Elfos, Hobbits, Ficcion</li>
+            </ul>
+
 
     </article>
 
+    <aside>
+        <h2>Noticias</h2>
+
+        <p class="vevent"><span class="summary">El sitio tolkien.org organiza</span> en fecha <span class="dtstart">2018-07-20</span> la Conferencia Supernova en <span class="location">San Francisco, CA, USA</span>.
+        </p>
+    </aside>
+
     <footer>
         <address>
-        </address>
-    </footer>
+            <!-- Ejemplo de Microformatos - http://microformats.org/ -->
 
+            <div id="hcard-Diego_Lopez-Suarez" class="vcard">
+                    Saludos desde
+                    <div class="org">CFTIC</div>
+                    <div hidden="">
+                        <span class="fn n">
+                            <span class="given-name">Diego</span>
+                            <span class="additional-name">Fernando</span>
+                            <span class="family-name">Lopez Suarez</span>
+                        </span>
+                        <a class="email" href="mailto:diego.lopez.suarez@gmail.com">diego.lopez.suarez@gmail.com</a>
+                        <span class="adr">
+                            <span class="street-address">Arcas del Agua</span>
+                            <span class="locality">Getafe</span>,
+                            <span class="region">Madrid</span>,
+                            <span class="postal-code">28905</span>
+                            <span class="country-name">Spain</span>
+                        </span>
+                    </div>
+                </div>
+        </address>
+        
+        <p>
+                <small>©Copyright  De todos y de nadie </small>
+        </p>
+    
+    </footer>
      
 </body>
 
